@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/27b6533f47.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/LOGO.png" class="LOGO">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portFolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>IT Network Specialist</p>
+                <h1>Hi I am Jann <span>Louis</span><br> From Batangas</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/USER.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugit ab provident eveniet ut accusantium repellat, et fuga sapiente velit, est voluptatum doloremque mollitia placeat consequuntur expedita! Architecto, quidem eos!
+                Nulla error quia sit, dolorem consequuntur possimus, quibusdam mollitia molestias enim illo ut aperiam beatae ullam placeat impedit odit fugit asperiores reprehenderit quae delectus! Illo accusamus blanditiis quidem facere a.
+                Nam suscipit laudantium id earum delectus corporis itaque, nostrum eligendi modi, quidem provident cum sunt repellendus maiores inventore odit consectetur odio sequi quibusdam. Possimus distinctio accusantium hic corrupti magni 
+                delectus!</p>
+
+                <div class="tabTitles">
+                        <p class="tabLinks activelink" onclick="opentab('Skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('Experience')">Experience</p>
+                        <p class="tabLinks" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tabContent activetab" id="Skills">
+                    <ul>
+                        <li><span>Linux</span><br>Cloud+ Linux+ and Server+</li>
+                        <li><span>Cybersecurity</span><br>Cybersecurity Analyst</li>
+                        <li><span>Technical Support</span><br>Troubleshoot</li>
+                    </ul>
+                </div>
+                <div class="tabContent" id="Experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Learning Cloud+ Linux+ and Server+</li>
+                        <li><span>2023 - Current</span><br>Learning Cybersecurity Analyst</li>
+                        <li><span>2023 - Current</span><br>Learning Troubleshoot</li>
+                    </ul>
+                </div>
+                <div class="tabContent" id="Education">
+                    <ul>
+                        <li><span>2020-2023</span><br>FAITH COLLEGES</li>
+                        <li><span>2018-2020</span><br>FAITH FIDELIS SHS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------services------------------------------------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Linux</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt eius voluptatem voluptatibus reiciendis nisi autem soluta veniam pariatur suscipit culpa architecto earum nam vel beatae dicta, numquam iure! Magni, quaerat!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Cybersecurity</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt eius voluptatem voluptatibus reiciendis nisi autem soluta veniam pariatur suscipit culpa architecto earum nam vel beatae dicta, numquam iure! Magni, quaerat!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2>Technical Support</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt eius voluptatem voluptatibus reiciendis nisi autem soluta veniam pariatur suscipit culpa architecto earum nam vel beatae dicta, numquam iure! Magni, quaerat!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------portfolio-------------------------------------------->
+<div id="portFolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="workList">
+            <div class="work">
+                <img src="images2/work-1.png">
+                <div class="layer">
+                    <h3>Linux</h3>
+                    <p>These projects can range from kernel development and device driver support to user-friendly desktop environments, applications, or system utilities. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images2/work-2.png">
+                <div class="layer">
+                    <h3>Cybersecurity</h3>
+                    <p>These projects can range from kernel development and device driver support to user-friendly desktop environments, applications, or system utilities. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images2/work-3.png">
+                <div class="layer">
+                    <h3>Technical Support</h3>
+                    <p>These projects can range from kernel development and device driver support to user-friendly desktop environments, applications, or system utilities. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+            <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------------contact----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactLeft">
+                <h1 class="subtitle">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>louis.ontiveros20@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i>09457203159</p>
+                <div class="socialicons">
+                    <a href="https://www.facebook.com/profile.php?id=61550553714756"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ainttoki/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ontiverosjannlouis/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images2/my-cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contactRight">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Louis. Personal Project</p>
+    </div>
+</div>
+
+
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tabLinks");
+        var tabcontents = document.getElementsByClassName("tabContent");  
+        
+        function opentab(tabname){
+            for(tablink of tablinks) {
+                tablink.classList.remove("activelink");
+
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink")
+            document.getElementById(tabname).classList.add("activetab");
+        }
+
+</script>
+
+<script>
+
+        var sidemeu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+</script>
+
+</body>
+</html>
