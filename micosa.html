@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="micosa.css">
+    <script src="https://kit.fontawesome.com/27b6533f47.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Lowell Micosa</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portFolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Technical Support</p>
+                <h1>Hi I am Micosa <span>Lowell</span><br> From Sto tomas Batangas</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/pic1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugit ab provident eveniet ut accusantium repellat, et fuga sapiente velit, est voluptatum doloremque mollitia placeat consequuntur expedita! Architecto, quidem eos!
+                Nulla error quia sit, dolorem consequuntur possimus, quibusdam mollitia molestias enim illo ut aperiam beatae ullam placeat impedit odit fugit asperiores reprehenderit quae delectus! Illo accusamus blanditiis quidem facere a.
+                Nam suscipit laudantium id earum delectus corporis itaque, nostrum eligendi modi, quidem provident cum sunt repellendus maiores inventore odit consectetur odio sequi quibusdam. Possimus distinctio accusantium hic corrupti magni 
+                delectus!</p>
+
+                <div class="tabTitles">
+                        <p class="tabLinks activelink" onclick="opentab('Skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('Experience')">Experience</p>
+                        <p class="tabLinks" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tabContent activetab" id="Skills">
+                    <ul>
+                        <li><span>Trouble Shooting</span><br>Solving Problems </li>
+                        <li><span>Internet</span><br>Wiring</li>
+                        <li><span>Technical Support</span><br>Diagnosting</li>
+                    </ul>
+                </div>
+                <div class="tabContent" id="Experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Knows how to troubleshoot internet <li>
+                        <li><span>2023 - Current</span><br>Little knowledge in UI/UX design</li>
+                        <li><span>2023 - Current</span><br>Troubleshoot Computer</li>
+                    </ul>
+                </div>
+                <div class="tabContent" id="Education">
+                    <ul>
+                        <li><span>2020-2023</span><br>FAITH COLLEGES</li>
+                        <li><span>2018-2020</span><br>St. Thomas Academy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2>Solving Computer Problems</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt eius voluptatem voluptatibus reiciendis nisi autem soluta veniam pariatur suscipit culpa architecto earum nam vel beatae dicta, numquam iure! Magni, quaerat!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-wifi"></i></a>
+                <h2>Internet</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt eius voluptatem voluptatibus reiciendis nisi autem soluta veniam pariatur suscipit culpa architecto earum nam vel beatae dicta, numquam iure! Magni, quaerat!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-question"></i></a>
+                <h2>Technical Support</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt eius voluptatem voluptatibus reiciendis nisi autem soluta veniam pariatur suscipit culpa architecto earum nam vel beatae dicta, numquam iure! Magni, quaerat!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portFolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="workList">
+            <div class="work">
+                <img src="images/mywork-1.png">
+                <div class="layer">
+                    <h3>Trouble Shoot</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos earum quo fugit! Explicabo dolores suscipit ullam enim quia iusto iure recusandae, nam saepe laborum. Vero vitae esse qui earum!</p>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mywork-2.png">
+                <div class="layer">
+                    <h3>Internet</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos earum quo fugit! Explicabo dolores suscipit ullam enim quia iusto iure recusandae, nam saepe laborum. Vero vitae esse qui earum! </p>
+                    <a href="#"><i class="fa-solid fa-wifi"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mywork-3.png">
+                <div class="layer">
+                    <h3>Technical Support</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos earum quo fugit! Explicabo dolores suscipit ullam enim quia iusto iure recusandae, nam saepe laborum. Vero vitae esse qui earum!</p>
+                    <a href="#"><i class="fa-solid fa-question"></i></a>
+                </div>
+            </div>
+        </div>
+            <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactLeft">
+                <h1 class="subtitle">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>lowellmicosa1@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i>09510679708</p>
+                <div class="socialicons">
+                    <a href="https://www.facebook.com/micosa.lowell?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/domelq_?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contactRight">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Lowell Micosa.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tabLinks");
+        var tabcontents = document.getElementsByClassName("tabContent");  
+        
+        function opentab(tabname){
+            for(tablink of tablinks) {
+                tablink.classList.remove("activelink");
+
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink")
+            document.getElementById(tabname).classList.add("activetab");
+        }
+
+</script>
+
+<script>
+
+        var sidemeu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+</script>
+
+</body>
+</html>
